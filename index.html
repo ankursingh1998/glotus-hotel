@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Glotus Hotel & Resort</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- PROGRESS BAR -->
+<div id="progress-bar"></div>
+
+<!-- NAVBAR -->
+<nav>
+  <h1 class="logo">Glotus</h1>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#rooms">Rooms</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#booking">Booking</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+
+  <img src="images/hotel.jpg" class="hero-img">
+
+  <img src="images/1.jpg" class="slide">
+  <img src="images/2.jpg" class="slide">
+
+  <div class="hero-content">
+    <a href="#booking" class="btn">Book Now</a>
+  </div>
+
+</section>
+
+<!-- ROOMS -->
+<section id="rooms" class="fade-in">
+  <h2>Our Rooms</h2>
+  <div class="rooms">
+
+    <div class="card">
+      <h3>Deluxe Room</h3>
+      <p>Modern luxury with comfort</p>
+    </div>
+
+    <div class="card">
+      <h3>Suite Room</h3>
+      <p>Premium suite experience</p>
+    </div>
+
+    <div class="card">
+      <h3>Family Room</h3>
+      <p>Perfect for families</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="fade-in">
+  <h2>Gallery</h2>
+  <div class="gallery">
+    <img src="images/1.jpeg">
+    <img src="images/2.jpeg">
+    <img src="images/3.jpeg">
+    <img src="images/4.jpeg">
+    <img src="images/5.jpeg">
+    <img src="images/6.jpeg">
+    <img src="images/7.jpeg">
+    <img src="images/9.jpeg">
+    <img src="images/10.jpeg">
+    <img src="images/11.jpeg">
+    <img src="images/12.jpeg">
+    <img src="images/13.jpeg">
+    <img src="images/14.jpeg">
+    <img src="images/15.jpeg">
+    <img src="images/16.jpeg">
+    <img src="images/17.jpeg">
+    <img src="images/18.jpeg">
+    <img src="images/19.jpeg">
+    <img src="images/20.jpeg">
+    <img src="images/21.jpeg">
+    <img src="images/22.jpeg">
+    <img src="images/23.jpeg">
+    <img src="images/24.jpeg">
+    <img src="images/25.jpeg">
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="booking" class="booking-section fade-in">
+
+  <h2 class="booking-title">Reserve Your Luxury Stay</h2>
+
+  <form id="bookingForm" class="booking-form">
+
+    <!-- NAME -->
+    <div class="input-box">
+      <input type="text" id="name" required>
+      <label>Your Name</label>
+    </div>
+
+    <!-- CHECK-IN -->
+    <div class="input-box">
+      <input type="date" id="checkin" required>
+      <label class="fixed-label">Check-in Date</label>
+    </div>
+
+    <!-- CHECK-OUT -->
+    <div class="input-box">
+      <input type="date" id="checkout" required>
+      <label class="fixed-label">Check-out Date</label>
+    </div>
+
+    <!-- ROOM -->
+    <div class="input-box">
+      <select id="room" required>
+        <option value="" disabled selected></option>
+        <option>Deluxe Room</option>
+        <option>Suite Room</option>
+        <option>Family Room</option>
+      </select>
+      <label>Select Room</label>
+    </div>
+
+    <button type="submit" class="book-btn">Reserve Now</button>
+
+  </form>
+
+</section>
+
+<!-- MAP -->
+<section class="map">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.068610187301!2d77.7280586!3d30.434156899999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390f258a5d6e7fd7%3A0xbb159361b31cd192!2sGlotus%20Hotel%20and%20resort%2FRestaurant!5e0!3m2!1sen!2sin!4v1776009183796!5m2!1sen!2sin" 
+  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 Glotus Hotel & Resort</p>
+</footer>
+
+<!-- WHATSAPP -->
+<a href="https://wa.me/919582079791?text=Hello%20I%20want%20to%20book%20a%20room%20at%20Glotus%20Hotel%20%26%20Resort" 
+   class="whatsapp">
+   💬 Chat
+</a>
+
+<!-- CALL -->
+<a href="tel:+919582079791" class="call-btn">
+  📞 Call
+</a>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
